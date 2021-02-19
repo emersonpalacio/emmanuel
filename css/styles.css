@@ -6,7 +6,15 @@
     min-width: 100%; 
 }
 
+body {
+    background-color: white;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 10pt;
 
+    background-color: white;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 10pt;
+}
 
 div {
     display: block;
@@ -31,17 +39,8 @@ div {
     border: 1px solid #ddd;
 }
 
-#pyInputPane, #loadingPane {
-    margin-top: 10px;
-    margin-bottom: 20px;
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.ace-tm {
-    background-color: #FFFFFF;
-    color: black;
-}
+
+
 .ace_editor {
     position: relative;
     overflow: hidden;
@@ -49,12 +48,3 @@ div {
     direction: ltr;
 }
 
-body {
-    background-color: white;
-    font-family: verdana, arial, helvetica, sans-serif;
-    font-size: 10pt;
-
-    background-color: white;
-    font-family: verdana, arial, helvetica, sans-serif;
-    font-size: 10pt;
-}

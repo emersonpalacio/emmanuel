@@ -12,112 +12,59 @@
 <body>
     <div id="pyInputPane">
 
-        <div id="codeInputWarnings">Write code in
-
-            <select id="pythonVersionSelector">
-                <option value="c_gcc9.3.0">C (gcc 9.3, C17 + GNU extensions)</option>
-                <option value="c">C (gcc 4.8, C11) [older but more stable]</option>
-            </select>
-
+        <div id="codeInputWarnings">
+            <h1>Write code in C gcc 4.8</h1>
         </div>
 
-        <div id="someoneIsTypingDiv" style="color: #e93f34; font-weight: bold; display: none;">Someone is typing ...
-        </div>
+        <div id="codeInputPane" class=" ace_editor ace-tm" style="width: 700px; height: 331.2px;">
+            <textarea class="" wrap="off" autocorrect="off" autocapitalize="off" spellcheck="false"
+                style="opacity: 0; height: 18.4px; width: 8.797px; left: 54.797px; top: 55.2px;">
+            </textarea>
 
-        <div id="codeInputPane" class=" ace_editor ace-tm" style="width: 700px; height: 331.2px;"><textarea
-                class="ace_text-input" wrap="off" autocorrect="off" autocapitalize="off" spellcheck="false"
-                style="opacity: 0; height: 18.4px; width: 8.797px; left: 54.797px; top: 55.2px;"></textarea>
-            <div class="ace_gutter">
-                <div class="ace_layer ace_gutter-layer ace_folding-enabled"
-                    style="margin-top: 0px; height: 368px; width: 42px;">
+            <div class="">
+                <div class=" " style="margin-top: 0px; height: 368px; width: 42px; text-align: center;">
                     <div class="ace_gutter-cell " style="height: 18.4px;">1</div>
                     <div class="ace_gutter-cell " style="height: 18.4px;">2</div>
                     <div class="ace_gutter-cell " style="height: 18.4px;">3</div>
                     <div class="ace_gutter-cell " style="height: 18.4px;">4</div>
                 </div>
-                <div class="ace_gutter-active-line" style="top: 55.2px; height: 18.4px;"></div>
+                <div class=""></div>
             </div>
             <div class="ace_scroller" style="left: 42px; right: 0px; bottom: 0px;">
-                <div class="ace_content" style="margin-top: 0px; width: 658px; height: 368px; margin-left: 0px;">
-                    <div class="ace_layer ace_print-margin-layer">
-                        <div class="ace_print-margin" style="left: 707.76px; visibility: hidden;"></div>
-                    </div>
-                    <div class="ace_layer ace_marker-layer">
-                        <div class="ace_bracket ace_start ace_br15"
-                            style="height:18.399999618530273px;width:8.797000122070312px;top:0px;left:100.76700134277343px;">
+                <div class="ace_content">
+                    <div class="ace_layer " style="padding: 18px 4px;">
+                        <div class="" style="height:18.399999618530273px">
+                            <span class="ace_storage ace_type">
+                                int
+                            </span>
+                            <span class="ace_identifier">
+                                main
+                            </span>
+                            <span class="ace_paren ace_lparen"> (</span><span class="ace_paren ace_rparen">)
+
+                            </span>
+                            <span class="ace_paren ace_lparen">
+                                {
+                            </span>
+                        </div>
+
+                        <div class="" style="height:18.399999618530273px">
+                        </div>
+                        <div class="" style="height:18.399999618530273px">
+                            <span class="ace_keyword ace_control">
+                                return
+                            </span>
+                            <span class="ace_constant ace_numeric">
+                                0</span><span class="ace_punctuation ace_operator">;</span></div>
+                        <div class="" style="height:18.399999618530273px">
+                            <span class="ace_paren ace_rparen">
+                                }
+                            </span>
                         </div>
                     </div>
-                    <div class="ace_layer ace_text-layer" style="padding: 0px 4px;">
-                        <div class="ace_line" style="height:18.399999618530273px"><span
-                                class="ace_storage ace_type">int</span> <span class="ace_identifier">main</span><span
-                                class="ace_paren ace_lparen">(</span><span class="ace_paren ace_rparen">)</span> <span
-                                class="ace_paren ace_lparen">{</span></div>
-                        <div class="ace_line" style="height:18.399999618530273px"></div>
-                        <div class="ace_line" style="height:18.399999618530273px"> <span
-                                class="ace_keyword ace_control">return</span> <span
-                                class="ace_constant ace_numeric">0</span><span
-                                class="ace_punctuation ace_operator">;</span></div>
-                        <div class="ace_line" style="height:18.399999618530273px"><span
-                                class="ace_paren ace_rparen">}</span></div>
-                    </div>
-                    <div class="ace_layer ace_marker-layer"></div>
-                    <div class="ace_layer ace_cursor-layer ace_hidden-cursors">
-                        <div class="ace_cursor" style="left: 12.797px; top: 55.2px; width: 8.797px; height: 18.4px;">
-                        </div>
-                    </div>
                 </div>
             </div>
-            <div class="ace_scrollbar ace_scrollbar-v" style="display: none; width: 22px; bottom: 0px;">
-                <div class="ace_scrollbar-inner" style="width: 22px; height: 73.6px;"></div>
-            </div>
-            <div class="ace_scrollbar ace_scrollbar-h" style="display: none; height: 22px; left: 42px; right: 0px;">
-                <div class="ace_scrollbar-inner" style="height: 22px; width: 700px;"></div>
-            </div>
-            <div
-                style="height: auto; width: auto; top: 0px; left: 0px; visibility: hidden; position: absolute; white-space: pre; font: inherit; overflow: hidden;">
-                <div
-                    style="height: auto; width: auto; top: 0px; left: 0px; visibility: hidden; position: absolute; white-space: pre; font: inherit; overflow: visible;">
-                </div>
-                <div
-                    style="height: auto; width: auto; top: 0px; left: 0px; visibility: hidden; position: absolute; white-space: pre; font-style: inherit; font-variant: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; overflow: visible;">
-                    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-                </div>
-            </div>
-        </div> <!-- populate with Ace code editor instance -->
-        <div id="frontendErrorOutput"></div>
-        <div id="surveyPane"></div>
-
-        <p>
-            <button id="executeBtn" class="bigBtn" type="button">Visualize Execution</button>
-            <button style="margin-left: 20px; display: none;" id="liveModeBtn" class="bigBtn" type="button">Live
-                Programming Mode</button>
-        </p>
-
-        <div id="instructionsPane"></div>
-
-        <div id="exampleSnippets" style="display: none;">
-            <p>These examples demonstrate the tool's visualization capabilities but are <em>not</em> meant as coding
-                lessons.</p>
-            <p style="margin-top: 25px; font-weight: bold;">C Examples</p>
-
-            <p style="margin-top: 5px;">
-                <a class="exampleLink" id="cMengThesisLink" href="#">Thesis</a> |
-                <a class="exampleLink" id="cGlobalsLink" href="#">Globals</a> |
-                <a class="exampleLink" id="cStructLink" href="#">Structs</a> |
-                <a class="exampleLink" id="cNestedStructLink" href="#">Nested structs</a> |
-                <a class="exampleLink" id="cArrOverflowLink" href="#">Array overflow</a> |
-                <a class="exampleLink" id="cArrParamLink" href="#">Array param</a>
-            </p>
-            <p></p>
-            <a class="exampleLink" id="cStringRevLink" href="#">String reverse</a> |
-            <a class="exampleLink" id="cPtrLevelsLink" href="#">Pointer levels</a> |
-            <a class="exampleLink" id="cPtrChainLink" href="#">Pointer chain</a> |
-            <a class="exampleLink" id="cPtrWildLink" href="#">Pointers wild</a> |
-            <a class="exampleLink" id="cTypedefLink" href="#">Typedef</a>
-            <p></p>
-        </div><a href="#" id="showExampleLink" style="font-size: 11pt;">Show code examples</a>
-
-    </div>
+        </div>
 </body>
 
 </html>
