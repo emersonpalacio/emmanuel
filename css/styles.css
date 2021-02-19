@@ -1,0 +1,60 @@
+.ace_content {
+    position: absolute;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    min-width: 100%; 
+}
+
+
+
+div {
+    display: block;
+}
+.ace_scroller {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    bottom: 0;
+    background-color: inherit;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: text;
+    padding: 10px;
+}
+
+#codeInputPane {
+    margin-top: 5px;
+    font-size: 12pt;
+    border: 1px solid #ddd;
+}
+
+#pyInputPane, #loadingPane {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ace-tm {
+    background-color: #FFFFFF;
+    color: black;
+}
+.ace_editor {
+    position: relative;
+    overflow: hidden;
+    font: 12px/normal 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+    direction: ltr;
+}
+
+body {
+    background-color: white;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 10pt;
+
+    background-color: white;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 10pt;
+}
