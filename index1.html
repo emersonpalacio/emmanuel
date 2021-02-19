@@ -1,0 +1,91 @@
+<!DOCTYPE html 
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>(@emanuel)</title>
+     
+
+    <script type="text/javascript"   src="./js/js-py.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="css/styles-py.css">
+  
+
+</head>
+
+<body>
+    <div id="pyInputPane">
+        <div id="codeInputWarnings">Write code in
+
+            <select id="pythonVersionSelector">
+                <option value="c_gcc9.3.0">C (gcc 9.3, C17 + GNU extensions)</option>
+                <option value="c">C (gcc 4.8, C11) [older but more stable]</option>
+            </select>
+
+        </div>
+
+        <div id="someoneIsTypingDiv" style="color: #e93f34; font-weight: bold; display: none;">Someone is typing ...
+        </div>
+
+        <div id="codeInputPane" class=" ace_editor ace-tm" style="width: 700px; height: 331.2px;"><textarea
+                class="ace_text-input" wrap="off" autocorrect="off" autocapitalize="off" spellcheck="false"
+                style="opacity: 0; height: 18.4px; width: 8.797px; left: 46px; top: 0px;"></textarea>
+     
+            <div class="ace_scroller" style="left: 42px; right: 0px; bottom: 0px;">
+                <div class="ace_content" style="margin-top: 0px; width: 658px; height: 368px; margin-left: 0px;">
+                    <div class="ace_layer ace_print-margin-layer">
+                        <div class="ace_print-margin" style="left: 707.76px; visibility: hidden;"></div>
+                    </div>
+                    <div class="ace_layer ace_marker-layer"></div>
+                    <div class="ace_layer ace_text-layer" style="padding: 0px 4px;">
+                        <div class="ace_line" style="height:18.399999618530273px"><span
+                                class="ace_storage ace_type">int</span> <span class="ace_identifier">main</span><span
+                                class="ace_paren ace_lparen">(</span><span class="ace_paren ace_rparen">)</span> <span
+                                class="ace_paren ace_lparen">{</span></div>
+                        <div class="ace_line" style="height:18.399999618530273px"></div>
+                        <div class="ace_line" style="height:18.399999618530273px"> <span
+                                class="ace_keyword ace_control">return</span> <span
+                                class="ace_constant ace_numeric">0</span><span
+                                class="ace_punctuation ace_operator">;</span></div>
+                        <div class="ace_line" style="height:18.399999618530273px"><span
+                                class="ace_paren ace_rparen">}</span></div>
+                    </div>
+                    <div class="ace_layer ace_marker-layer"></div>
+                    <div class="ace_layer ace_cursor-layer ace_hidden-cursors">
+                        <div class="ace_cursor" style="left: 4px; top: 0px; width: 8.797px; height: 18.4px;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="ace_scrollbar ace_scrollbar-v" style="display: none; width: 22px; bottom: 0px;">
+                <div class="ace_scrollbar-inner" style="width: 22px; height: 73.6px;"></div>
+            </div>
+            <div class="ace_scrollbar ace_scrollbar-h" style="display: none; height: 22px; left: 42px; right: 0px;">
+                <div class="ace_scrollbar-inner" style="height: 22px; width: 700px;"></div>
+            </div>
+            <div
+                style="height: auto; width: auto; top: 0px; left: 0px; visibility: hidden; position: absolute; white-space: pre; font: inherit; overflow: hidden;">
+                <div
+                    style="height: auto; width: auto; top: 0px; left: 0px; visibility: hidden; position: absolute; white-space: pre; font: inherit; overflow: visible;">
+                </div>
+                <div
+                    style="height: auto; width: auto; top: 0px; left: 0px; visibility: hidden; position: absolute; white-space: pre; font-style: inherit; font-variant: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; overflow: visible;">
+                    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</div>
+            </div>
+        </div> <!-- populate with Ace code editor instance -->
+        <div id="frontendErrorOutput"></div>
+        <div id="surveyPane"></div>
+
+      
+        <div id="instructionsPane"></div>
+
+       
+
+    </div>
+
+    <div id="pyOutputPane" style="display: none;"></div>
+
+ 
+    </div>
+
+
+</body>
+
+</html>
