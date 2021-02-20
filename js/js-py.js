@@ -41161,30 +41161,7 @@
 						if (!exports.TogetherJS.running) {
 							$("#surveyHeader").show();
 						}
-						/* 2020-07-17: no longer sync pyCodeOutputDivScroll events since it's jarring
-            if (this.pendingCodeOutputScrollTop) {
-              this.myVisualizer.domRoot.find('#pyCodeOutputDiv').scrollTop(this.pendingCodeOutputScrollTop);
-              this.pendingCodeOutputScrollTop = null;
-            }
-      
-            $.doTimeout('pyCodeOutputDivScroll'); // cancel any prior scheduled calls
-      
-            // TODO: this might interfere with experimentalPopUpSyntaxErrorSurvey (2015-04-19)
-            this.myVisualizer.domRoot.find('#pyCodeOutputDiv').scroll(function(e) {
-              var elt = $(this);
-              // debounce
-              $.doTimeout('pyCodeOutputDivScroll', 100, function() {
-                // note that this will send a signal back and forth both ways
-                if (TogetherJS.running && !this.isPlayingDemo) {
-                  // (there's no easy way to prevent this), but it shouldn't keep
-                  // bouncing back and forth indefinitely since no the second signal
-                  // causes no additional scrolling
-                  TogetherJS.send({type: "pyCodeOutputDivScroll",
-                                   scrollTop: elt.scrollTop()});
-                }
-              });
-            });
-            */
+		
 					} else {
 						pytutor_1.assert(false);
 					}
